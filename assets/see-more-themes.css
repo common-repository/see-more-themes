@@ -1,0 +1,108 @@
+@media all and (min-width: 640px) {
+	.theme-browser .theme {
+		margin-right: 2.66667%;
+		width: 30%;
+		border: 1px solid #dedede;
+	}
+	.theme-browser .theme:nth-child(even),
+	.theme-browser .theme:nth-child(odd) {
+		margin-right: 5%;
+	}
+	.theme-browser .theme:nth-child(3n) {
+		margin-right: 0;
+	}
+	.theme-browser .theme.add-new-theme span:after {
+		font: 400 50px/80px dashicons;
+		width: 70px;
+		height: 70px;
+		margin-left: -35px;
+	}
+}
+
+@media all and (min-width: 783px) {
+	.theme-browser .theme {
+		margin-right: 2.66667%;
+		width: 22.95%;
+		border: 1px solid #dedede;
+	}
+	.theme-browser .theme:nth-child(even),
+	.theme-browser .theme:nth-child(odd),
+	.theme-browser .theme:nth-child(3n) {
+		margin-right: 2.66667%;
+	}
+	.theme-browser .theme:nth-child(4n) {
+		margin-right: 0;
+	}
+	.theme-browser .theme .more-details {
+		top: 20%;
+		right: 15%;
+		left: 15%;
+		font-size: 13px;
+		padding: 10px;
+	}
+	.theme-browser .theme .theme-name,
+	.theme-browser .theme .theme-actions {
+		padding: 10px;
+	}
+	.theme-browser .theme .theme-name {
+		font-size: 14px;
+	}
+	.theme-browser .theme .theme-actions {
+		position: static;
+		opacity: 1;
+		padding: 10px;
+		border-width: 1px 0 0;
+		border-style: solid;
+		border-color: rgba(0, 0, 0, 0.05);
+		box-shadow: none;
+		transform: none;
+	}
+	.theme-browser .theme .theme-actions .button {
+		display: inline-block;
+		background: none;
+		font-size: 13px;
+		line-height: 1;
+		font-weight: 400;
+		text-decoration: underline;
+		padding: 0;
+		border: none;
+		outline: none;
+		box-shadow: none;
+		margin: 0 8px 0 0;
+		min-height: unset;
+		text-shadow: none;
+	}
+	.theme-browser .theme .theme-actions .button:hover {
+		text-decoration: none;
+	}
+	.wp-core-ui .theme-browser .theme-actions .button-primary {
+		color: #23282d;
+	}
+	.wp-core-ui .theme-browser .theme-actions .button-secondary {
+		color: #2EA2CC;
+	}
+	.wp-core-ui .theme-browser .active .theme-actions .button-primary {
+		color: #fff;
+	}
+	.theme-browser .theme.add-new-theme .theme-name {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+	.theme-browser .theme {
+		margin-right: 3%;
+		width: 17.6%;
+		border: 1px solid #dedede;
+	}
+	.theme-browser .theme:nth-child(3n),
+	.theme-browser .theme:nth-child(4n) {
+		margin-right: 3%;
+	}
+	.theme-browser .theme:nth-child(5n) {
+		margin-right: 0;
+	}
+	.theme-browser .theme.add-new-theme .theme-name {
+		margin-top: 11px;
+	}
+}
